@@ -1,0 +1,30 @@
+.SuccessContainer {
+  margin: auto;
+  text-align: center;
+  padding: 10vmax;
+  height: 85vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.SuccessIcon > svg {
+  font-size: 10vmax;
+  color: tomato;
+}
+
+.SuccessContainer > p {
+  font-size: 2vmax;
+}
+
+.SuccessContainer > a {
+    background-color: rgb(51, 51, 51);
+    color: white;
+    border: none;
+    padding: 1vmax 3vmax;
+    cursor: pointer;
+    font: 400 1vmax "Roboto";
+    text-decoration: none;
+    margin: 2vmax;
+  }

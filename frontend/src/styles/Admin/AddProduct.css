@@ -1,0 +1,70 @@
+.AddPContainer {
+  width: 100%;
+  box-sizing: border-box;
+  background-color: rgb(255, 255, 255);
+  border-left: 1px solid rgba(0, 0, 0, 0.158);
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+#addproductheading {
+  font: 400 2rem "Roboto";
+  padding: 0.5vmax;
+  box-sizing: border-box;
+  color: rgba(0, 0, 0, 0.637);
+  transition: all 0.5s;
+  margin: 2rem;
+  text-align: center;
+  border-bottom: 1px solid #e0dddd;
+}
+
+.addProductConinter {
+  padding: 30px;
+}
+
+.addP {
+  display: flex;
+  justify-content: center;
+  max-height: none;
+  height: auto;
+  flex-wrap: wrap;
+}
+
+.addProduct {
+  padding: 30px;
+  max-width: 50%;
+}
+
+.description {
+  padding: 30px;
+  max-width: 50%;
+}
+
+.description .form-control {
+  max-height: 350px;
+  height: 100%;
+}
+
+.label {
+  display: inline-block;
+  margin-bottom: 0.8rem;
+  font-weight: bold;
+}
+
+.form-control {
+  width: 500px;
+  padding: 10px 16px;
+  margin-bottom: 0.5rem;
+  border-radius: 0;
+  height: 50px;
+  border-radius:10px;
+}
+
+.subBtn {
+  color: rgb(0, 0, 0);
+  width: 100%;
+  max-width: 70%;
+  display: flex;
+  justify-content: center;
+}

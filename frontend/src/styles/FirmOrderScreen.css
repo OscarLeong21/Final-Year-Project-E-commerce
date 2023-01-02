@@ -1,0 +1,207 @@
+.FirmOrderPage {
+    margin-top: 80px;
+    height: 100vh;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 6fr 3fr;
+  }
+  
+  .FirmOrderPage > div:last-child {
+    border-left: 1px solid rgba(0, 0, 0, 0.247);
+  }
+  
+  .shippinginfo {
+    padding: 5vmax;
+    padding-bottom: 0%;
+  }
+  
+  .shippinginfo > p {
+    font: 400 1.8vmax "Roboto";
+    border-bottom: 1px solid rgba(0, 0, 0, 0.363);
+  }
+  
+  .shipinfobox,
+  .cartitemsContainer {
+    margin: 2.5vmax;
+  }
+  
+  .shipinfobox > div {
+    display: flex;
+    margin: 1vmax 0;
+  }
+  
+  .shipinfobox > div > p {
+    font: 400 1vmax "Roboto";
+    color: black;
+  }
+  
+  .shipinfobox > div > span {
+    margin: 0 1vmax;
+    font: 100 1vmax "Roboto";
+    color: #575757;
+  }
+  
+  .cartitemsbox > p {
+    font: 400 1.5vmax "Roboto";
+    border-bottom: 1px solid rgba(0, 0, 0, 0.363);
+  }
+  
+  .cartitemsbox {
+    padding: 5vmax;
+    padding-top: 2vmax;
+  }
+  
+  .cartitemsContainer {
+    max-height: 20vmax;
+    overflow-y: auto;
+  }
+  
+  .cartitemsContainer > div {
+    display: flex;
+    font: 400 1vmax "Roboto";
+    align-items: center;
+    justify-content: space-between;
+    margin: 2vmax 0;
+  }
+  
+  .cartitemsContainer > div > img {
+    width: 9.5vmax;
+  }
+  
+  .cartitemsContainer > div > a {
+    color: #575757;
+    margin: 0 2vmax;
+    width: 45%;
+    text-decoration: none;
+  }
+  
+  .cartitemsContainer > div > span {
+    font: 100 1vmax "Roboto";
+    color: #5e5e5e;
+  }
+  
+  .SummaryBox {
+    padding: 5vmax;
+  }
+  
+  .SummaryBox > p {
+    text-align: center;
+    font: 400 1.5vmax "Roboto";
+    border-bottom: 1px solid rgba(0, 0, 0, 0.267);
+    padding: 1vmax;
+    width: 100%;
+    margin: auto;
+    box-sizing: border-box;
+  }
+  
+  .SummaryBox > div > div {
+    display: flex;
+    font: 300 1vmax "Roboto";
+    justify-content: space-between;
+    margin: 2vmax 0;
+  }
+  .SummaryBox > div > div > span {
+    color: rgba(0, 0, 0, 0.692);
+  }
+  
+  .SummaryTotal {
+    display: flex;
+    font: 300 1vmax "Roboto";
+    justify-content: space-between;
+    border-top: 1px solid rgba(0, 0, 0, 0.363);
+    padding: 2vmax 0;
+  }
+  
+  .SummaryBox > button {
+    background-color: rgb(62, 192, 243);
+    color: rgb(0, 0, 0);
+    width: 100%;
+    padding: 1vmax;
+    border: none;
+    margin: auto;
+    cursor: pointer;
+    transition: 0.5s;
+    font: 400 1vmax "Roboto";
+  }
+  
+  .SummaryBox > button:hover {
+    background-color: rgb(1, 151, 251);
+  }
+  
+  @media screen and (max-width: 600px) {
+    .FirmOrderPage {
+      grid-template-columns: 1fr;
+      height: unset;
+    }
+  
+    .FirmOrderPage > div:last-child {
+      border-left: 0;
+      border-top: 1px solid rgba(0, 0, 0, 0.247);
+    }
+  
+    .shippinginfo > p {
+      font: 400 6vw "Roboto";
+    }
+  
+    .shipinfobox > div {
+      display: flex;
+      margin: 6vw 0;
+    }
+  
+    .shipinfobox > div > p {
+      font: 400 4vw "Roboto";
+    }
+    .shipinfobox > div > span {
+      font: 100 4vw "Roboto";
+    }
+  
+    .cartitemsbox > p {
+      font: 400 6vw "Roboto";
+    }
+  
+    .cartitemsContainer {
+      max-height: 50vw;
+    }
+  
+    .cartitemsContainer > div {
+      font: 400 4vw "Roboto";
+      margin: 4vw 0;
+    }
+  
+    .cartitemsContainer > div > img {
+      width: 10vw;
+    }
+  
+    .cartitemsContainer > div > a {
+      margin: 0;
+      width: 30%;
+    }
+  
+    .cartitemsContainer > div > span {
+      font: 100 4vw "Roboto";
+    }
+  
+    .SummaryBox {
+      padding: 12vw;
+    }
+  
+    .SummaryBox > p {
+      font: 400 6vw "Roboto";
+      padding: 4vw;
+    }
+  
+    .SummaryBox > div > div {
+      font: 300 4vw "Roboto";
+    }
+  
+    .SummaryTotal {
+      font: 300 4vw "Roboto";
+      padding: 5vw 0;
+    }
+  
+    .SummaryBox > button {
+      padding: 4vw;
+      margin: 4vw auto;
+      font: 400 4vw "Roboto";
+    }
+  }

@@ -1,0 +1,50 @@
+.ship {
+  height: 60%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 80px;
+  padding: 0;
+}
+
+#shipHeading {
+  text-align: center;
+  font: 600 2vmax "Roboto";
+  padding: 1vmax;
+  box-sizing: border-box;
+  color: rgb(2, 2, 2);
+}
+
+.shipwords {
+  display: flex;
+  flex-direction: column;
+  height: 40%;
+  align-items: center;
+  margin: 50px;
+}
+
+.shiphead {
+  text-decoration: underline;
+  text-align: center;
+  width: 70%;
+  margin: 20px;
+  font-weight: bold;
+  float: left;
+  font-size: 1.3rem;
+}
+
+.shipbody {
+  width: 100%;
+  text-align: center;
+}
+
+.shipbody > h6 {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+@media only screen and (min-width: 400px) {
+  .shipbody {
+    flex-direction: column;
+  }
+}

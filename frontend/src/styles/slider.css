@@ -1,0 +1,60 @@
+.sliderContainer {
+  margin-bottom: 2rem;
+  margin-top: 70px;
+}
+
+.sliderContainer img {
+  max-height: 600px;
+  max-width: 2000px;
+}
+
+@media (max-width: 500px) {
+  .sliderContainer img {
+    width: 500px;
+  }
+}
+
+@media (max-width: 900px) {
+  .sliderCosliderContainerntainer img {
+    width: 500px;
+  }
+}
+
+.typewriter {
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+.typewriter h2 {
+  color: rgb(2, 166, 255);
+  font-size: 30px;
+  width: 50%;
+  font-family: "Roboto";
+  overflow: hidden;
+  border-right: 0.15em solid #fff;
+  white-space: nowrap;
+  margin: 5px auto;
+  letter-spacing: 0.1em;
+  animation: typing 5s steps(20, end), blink-caret 0.5s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+
+  to {
+    width: 70%;
+  }
+}
+
+@keyframes blink-caret {
+  0% {
+    border-color: transparent;
+  }
+
+  50% {
+    border-color: rgb(128, 126, 126);
+  }
+}

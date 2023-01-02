@@ -1,0 +1,45 @@
+.terms {
+  height: 60%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 80px;
+  padding: 0;
+}
+
+#TermsHeading {
+  text-align: center;
+  font: 600 2vmax "Roboto";
+  padding: 1vmax;
+  box-sizing: border-box;
+  color: rgb(2, 2, 2);
+}
+
+.termswords {
+  display: flex;
+  flex-direction: column;
+  height: 40%;
+  align-items: center;
+  margin: 50px;
+}
+
+.termshead {
+  text-decoration: underline;
+  width: 70%;
+  margin: 20px;
+  font-weight: bold;
+  float: left;
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+.termsbody {
+  width: 100%;
+  text-align: center;
+}
+
+.termsbody > h6 {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
